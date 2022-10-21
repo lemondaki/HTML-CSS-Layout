@@ -1,0 +1,28 @@
+@media only screen and (max-width:63.9999em) {
+    .product {
+            grid-template-columns: 1fr;
+            grid-template-rows: auto;
+            row-gap: 40px;
+        }
+}
+@media only screen and (min-width:64em) and (max-width: 77.375em) {
+    .product {
+            grid-template-columns: 1fr 1fr;
+            grid-template-rows: auto;
+            row-gap: 40px;
+        }
+}
+@media only screen and (max-width:46.1875em) {
+    .hide-on-mobile {
+        display: none;  
+    }
+        #main {
+            position: relative;
+            width: 100%;
+            margin-left: 0;
+            padding: 0 40px;
+        }
+        #footer {
+            left: 0;
+        }
+}
